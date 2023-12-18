@@ -72,7 +72,7 @@ ul, li {
 }
 
 .mainPage{
-    padding: 50px 0 20px;
+    padding: 25px 0 20px;
 }
 
 .mainNav {
@@ -265,7 +265,7 @@ hr {
 }
 
 .photoGalleri .number{
-    text-align: center;
+    align-items: center;
 }
 
 .photoGalleri .number p {
@@ -304,7 +304,7 @@ hr {
 .account-info .user h4{
     color: #0b5780;
     font-size: 14px;
-    margin-bottom: 10px;
+    margin-bottom: 8px;
 }
 
 .account-info img{
