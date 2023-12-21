@@ -153,12 +153,13 @@ ul, li {
 .user img {
     max-width: 100%;
     border-radius: 100%;
-    width: 60%;
+    width: 70%;
     margin-bottom: 3px;
+    object-fit: cover;
 }
 
 .user p {
-    font-size: 12px;
+    font-size: 9px;
 }
 
 .firstRow {
@@ -324,3 +325,226 @@ hr {
     justify-content: space-between;
 }
 
+
+/* Second page */
+
+
+.allFriends {
+    background: #fff;
+    width: 650px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+}
+
+
+.allData {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 15px 8px;
+}
+
+.textInfo {
+    display: flex;
+    align-items: center;
+}
+
+.overall {
+    display: flex;
+    align-items: center;
+    margin-right: 25px;
+}
+
+.allData p {
+    margin: 0 5px 0 0;
+    font-size: 13px;
+    color: #000;
+}
+
+.allData div {
+    color:#9b9b9b;
+    font-size: 12px;
+}
+
+.online {
+    display: flex;
+    align-items: center;
+}
+
+.addBtn{
+    display: block;
+    background: #0b5780;
+    color: #fff;
+    width: 124px;
+    padding: 6px 0;
+    font-size: 13px;
+    border-radius: 5px;
+    border: none;
+    text-align: center;
+    cursor: pointer;
+}
+
+
+.onlineOROffline hr{
+    margin: 0;
+}
+
+.searchFriends {
+    position: relative;
+}
+
+.searchFriends img {
+    position: absolute;
+    width: 14px;
+    top: 11.5px;
+    right: 0;
+    left: 11px;
+    bottom: 0;
+}
+
+.searchFriends input {
+    padding: 10px 0 10px 29px;
+    width: 100%;
+    outline: none;
+    color: rgb(110, 110, 110);
+    border: none;
+}
+
+.importantFriends{
+    padding: 0 15px 15px 15px;
+}
+
+.eachFriend{
+    display: flex;
+    align-items: start;
+}
+
+.eachFriend img{
+    max-width: 100%;
+    width: 14%;
+    border-radius: 100%;
+    margin-right: 12px;
+}
+
+.textFriends {
+    display: block;
+}
+
+.textFriends h4 {
+    font-size: 13px;
+    color: #0b5780;
+    margin: 8px 0 5px 0;
+}
+
+.textFriends p {
+    margin: 5px 0 10px 0;
+    color:#9b9b9b;
+    font-size: 13px;
+}
+
+.textFriends a {
+    font-size: 12px;
+    color: #3482ac;
+    margin: 7px 0 0 0;
+}
+
+.dot{
+    color: #3482ac;
+    font-size: 29px;
+    align-items: center;
+    position: absolute;
+    top: -10.5%;
+    left: 96.5%;
+    right: 0;
+    bottom: 0;
+    cursor: pointer;
+}
+
+.allImportantFriends {
+    display: flex;
+    position: relative;
+    margin: 8px 0 8px;
+}
+
+.detailList {
+    background: #fff;
+    width: 300px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+.detailList li {
+    padding: 15px 15px 10px 15px;
+}
+
+.detailList li a{
+    color:#9b9b9b;
+    background: none;
+}
+
+.detailList .back a{
+    background: #6ecfff5c;
+    width: 100%;
+    display: block;
+    color:#000;
+    padding: 15px 0px 15px 16px;
+    margin: 10px 0 0 0;
+}
+
+.detailList .back{
+    padding: 8px 0px 0px 0px;
+}
+
+.detailList li:nth-child(6){
+    padding-bottom: 25px;
+}
+
+.probablyFriend {
+    background: #fff;
+    width: 300px;
+    border-radius: 5px;
+    padding: 15px;
+}
+
+.listProbablyFriend {
+    display: block;
+}
+.probablyFriend p{
+    margin: 0 0 10px 0;
+    font-size: 13px;
+    margin-bottom: 20px;
+}
+
+.eachFriendList {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.eachFriendList:nth-child(5) {
+    margin-bottom: 0px;
+}
+
+.eachFriendList img {
+    max-width: 100%;
+    width: 20%;
+    border-radius: 100%;
+    margin: auto 10px 0 0;
+}
+
+.eachFriendList h4 {
+    font-size: 13px;
+    color: #3482ac;
+    margin: 0 0 5px 0;
+    font-weight: 400;
+}
+
+.eachFriendList p {
+    font-size: 12px;
+    margin: 5px 0 5px 0;
+}
+
+.eachFriendList a {
+    font-size: 12px;
+    margin: 0;
+    margin: 5px 0 0 0;
+}
