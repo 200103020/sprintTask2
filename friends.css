@@ -1,0 +1,551 @@
+
+body {
+    padding: 0;
+    margin: 0;
+    color: #000;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+    background: #e1e1e1;
+}
+
+div, p, input, header, a, form {
+	box-sizing: border-box;
+    text-decoration: none;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	margin: 0;
+	padding: 0;
+	font-weight: bold;
+}
+
+ul, li {
+    display: block;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.header {
+    padding: 10px 0 10px;
+    background: #0b5780;
+}
+
+.nav {
+    display: flex;
+    align-items: center;
+}
+
+.logo{
+    color: #FFF;
+    margin-right: 200px;
+}
+
+.logo h2 {
+    font-size: 20px;
+}
+
+.search {
+    position: relative;
+}
+
+.search img {
+    position: absolute;
+    width: 14px;
+    top: 6px;
+    right: 0;
+    left: 11px;
+    bottom: 0;
+}
+
+.search input {
+    padding: 5px 0 5px 29px;
+    width: 170px;
+    border-radius: 100px;
+    outline: none;
+    background: #0f2c5e;
+    color: gray;
+    border: none;
+}
+
+.mainPage{
+    padding: 25px 0 20px;
+}
+
+.mainNav {
+    width: 17%;
+}
+
+.mainNav a{
+    text-decoration: none;
+    color: #0b5780;
+    font-size: 16px;
+}
+
+.mainNav li {
+    margin-bottom: 15px;
+}
+
+.mainNav li:nth-child(8n) {
+    margin-bottom: 0;
+}
+
+.photo{
+    width: 260px;
+    padding: 15px;
+    background: #fff;
+    margin-bottom: 20px;
+    border-radius: 5px;
+}
+
+.photo img {
+    max-width: 100%;
+    margin-bottom: 15px;
+}
+
+
+.btn {
+    width: 100%;
+    background: #e1e1e1;
+    padding: 10px 0;
+}
+
+.btn a{
+    display: block;
+    text-align: center;
+    color: #0b5780;
+    font-size: 14px;
+}
+
+.friends{
+    width: 260px;
+    padding: 15px;
+    background: #fff;
+    border-radius: 5px;
+}
+
+.number {
+    display: flex;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.number a{
+    display: block;
+    color: #000;
+    margin-right: 13px;
+    font-size: 13px;
+}
+
+.friends p {
+    display: block;
+    margin: 0;
+    font-size: 13px;
+}
+
+.user{
+    text-align: center;
+}
+
+.user img {
+    max-width: 100%;
+    border-radius: 100%;
+    width: 70%;
+    margin-bottom: 3px;
+    object-fit: cover;
+}
+
+.user p {
+    font-size: 9px;
+}
+
+.firstRow {
+    display: flex;
+    margin-bottom: 15px;
+}
+
+.secondRow {
+    display: flex;
+}
+
+.additionalInfo {
+    background: #fff;
+    width: 700px;
+    padding: 15px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+}
+
+.userName p {
+    display: block;
+    margin: 0;
+    font-size: 12px;
+}
+
+.userName {
+    display: flex;
+    justify-content: space-between;
+}
+
+.userName h4 {
+    font-weight: 400;
+    margin-bottom: 5px;
+}
+
+hr {
+    color: #fbfbfb4d;
+    margin: 20px 0;
+}
+
+.status {
+    font-size: 12px;
+    color:#9b9b9b;
+}
+
+.details {
+    display: flex;
+}
+
+.constant {
+    display: block;
+    margin-right: 60px;
+}
+
+.constant p{
+    color:#9b9b9b;
+    font-size: 12px;
+    margin: 7px 0;
+}
+
+.constant p:nth-child(5n){
+    margin: 7px 0 0;
+}
+
+.real p{
+    font-size: 12px;
+    margin: 7px 0;
+    color: #0b5780;
+}
+
+.real p:nth-child(5n){
+    margin: 7px 0 0;
+}
+
+.statistic{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 10px;
+}
+
+.eachStatistic {
+    text-align: center;
+    display: block;
+}
+
+.eachStatistic h4 {
+    color: #0b5780;
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.eachStatistic p {
+    margin: 5px 0 0;
+    color:#9b9b9b;
+    font-size: 11px;
+}
+
+.photoGalleri {
+    background: #fff;
+    width: 700px;
+    padding: 15px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+}
+
+.photoGalleri .number{
+    align-items: center;
+}
+
+.photoGalleri .number p {
+    margin: 0;
+    color:#9b9b9b;
+}
+
+.photostory {
+    display: flex;
+    justify-content: space-between;
+}
+
+.photostory img{
+    max-width: 100%;
+    width: 24%;
+}
+
+.post {
+    background: #fff;
+    width: 700px;
+    padding: 15px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+}
+
+.account-info{
+    display: flex;
+    align-items: center;
+}
+
+.account-info .user{
+    display: block;
+    text-align: left;
+}
+
+.account-info .user h4{
+    color: #0b5780;
+    font-size: 14px;
+    margin-bottom: 8px;
+}
+
+.account-info img{
+    width: 7%;
+    border-radius: 100%;
+    margin-right: 20px;
+    height: 12%;
+}
+
+.date {
+    color:#9b9b9b;
+    font-size: 11px;
+}
+
+.all {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+/* Second page */
+
+
+.allFriends {
+    background: #fff;
+    width: 650px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+}
+
+
+.allData {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 15px 8px;
+}
+
+.textInfo {
+    display: flex;
+    align-items: center;
+}
+
+.overall {
+    display: flex;
+    align-items: center;
+    margin-right: 25px;
+}
+
+.allData p {
+    margin: 0 5px 0 0;
+    font-size: 13px;
+    color: #000;
+}
+
+.allData div {
+    color:#9b9b9b;
+    font-size: 12px;
+}
+
+.online {
+    display: flex;
+    align-items: center;
+}
+
+.addBtn{
+    display: block;
+    background: #0b5780;
+    color: #fff;
+    width: 124px;
+    padding: 6px 0;
+    font-size: 13px;
+    border-radius: 5px;
+    border: none;
+    text-align: center;
+    cursor: pointer;
+}
+
+
+.onlineOROffline hr{
+    margin: 0;
+}
+
+.searchFriends {
+    position: relative;
+}
+
+.searchFriends img {
+    position: absolute;
+    width: 14px;
+    top: 11.5px;
+    right: 0;
+    left: 11px;
+    bottom: 0;
+}
+
+.searchFriends input {
+    padding: 10px 0 10px 29px;
+    width: 100%;
+    outline: none;
+    color: rgb(110, 110, 110);
+    border: none;
+}
+
+.importantFriends{
+    padding: 0 15px 15px 15px;
+}
+
+.eachFriend{
+    display: flex;
+    align-items: start;
+}
+
+.eachFriend img{
+    max-width: 100%;
+    width: 14%;
+    border-radius: 100%;
+    margin-right: 12px;
+}
+
+.textFriends {
+    display: block;
+}
+
+.textFriends h4 {
+    font-size: 13px;
+    color: #0b5780;
+    margin: 8px 0 5px 0;
+}
+
+.textFriends p {
+    margin: 5px 0 10px 0;
+    color:#9b9b9b;
+    font-size: 13px;
+}
+
+.textFriends a {
+    font-size: 12px;
+    color: #3482ac;
+    margin: 7px 0 0 0;
+}
+
+.dot{
+    color: #3482ac;
+    font-size: 29px;
+    align-items: center;
+    position: absolute;
+    top: -10.5%;
+    left: 96.5%;
+    right: 0;
+    bottom: 0;
+    cursor: pointer;
+}
+
+.allImportantFriends {
+    display: flex;
+    position: relative;
+    margin: 8px 0 8px;
+}
+
+.detailList {
+    background: #fff;
+    width: 300px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+.detailList li {
+    padding: 15px 15px 10px 15px;
+}
+
+.detailList li a{
+    color:#9b9b9b;
+    background: none;
+}
+
+.detailList .back a{
+    background: #6ecfff5c;
+    width: 100%;
+    display: block;
+    color:#000;
+    padding: 15px 0px 15px 16px;
+    margin: 10px 0 0 0;
+}
+
+.detailList .back{
+    padding: 8px 0px 0px 0px;
+}
+
+.detailList li:nth-child(6){
+    padding-bottom: 25px;
+}
+
+.probablyFriend {
+    background: #fff;
+    width: 300px;
+    border-radius: 5px;
+    padding: 15px;
+}
+
+.listProbablyFriend {
+    display: block;
+}
+.probablyFriend p{
+    margin: 0 0 10px 0;
+    font-size: 13px;
+    margin-bottom: 20px;
+}
+
+.eachFriendList {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.eachFriendList:nth-child(5) {
+    margin-bottom: 0px;
+}
+
+.eachFriendList img {
+    max-width: 100%;
+    width: 20%;
+    border-radius: 100%;
+    margin: auto 10px 0 0;
+}
+
+.eachFriendList h4 {
+    font-size: 13px;
+    color: #3482ac;
+    margin: 0 0 5px 0;
+    font-weight: 400;
+}
+
+.eachFriendList p {
+    font-size: 12px;
+    margin: 5px 0 5px 0;
+}
+
+.eachFriendList a {
+    font-size: 12px;
+    margin: 0;
+    margin: 5px 0 0 0;
+}
